@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing:content-box;
+    text-align: center;
+    height: 100vh;
+    
+   
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #7762f0;
+    font-family:'Courier New', Courier, monospace;
+  
+
+}
+.wish-card{
+    display: flex;
+    flex-direction:  row;
+}
+
+.wish-card {
+    background-color: rgba(128, 0, 128, 0.7);
+    margin: 10px ;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 500px;
+}
+
+.wish-card p {
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .wish-card p {
+        font-size: 1.2em;
+    }
+}
